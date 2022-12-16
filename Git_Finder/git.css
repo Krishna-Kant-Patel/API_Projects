@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #000;
+    color: #fff;
+  }
+  #heading-container{
+    background-color: rgb(79, 46, 46);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  #action-container{
+    text-decoration: none;
+    height: 150px;
+    padding: 20px;
+    
+    
+  }
+  #clear_button{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    align-items:center;
+    background-color: antiquewhite;
+
+}
+input{
+    width:250px;
+    height:30px;
+}
+#search_button{
+    height:35px;
+    width: 60px;
+    border-radius:10px;
+}
+  .profile_image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .profile {
+    padding: 10px;
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    
+  }
+  #username{
+    margin-top: 30px;
+  }
+  a:link {
+    color: antiquewhite;
+    text-decoration: none;
+  }
+  #profiles_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    text-decoration: none;
+    padding:20px;
+   
+  }
